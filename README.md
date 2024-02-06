@@ -17,3 +17,9 @@ In React Router, navigation is relative between the `path` attribute and the `to
 This type of navigation is called client-side routing because we are not rendering the pages from the server, but rather navigating from one components to another within the app.
 
 ## Dyanmic Segments
+
+A Dynamic Segment, as the name suggests, is a way of rendering a new component (UI) by updating a particular segment in teh URL called params. You use the [useParams](https://reactrouter.com/en/main/hooks/use-params) hook from `react-router-dom` to do this.
+
+This is very useful in situations where content needs to render dynamically from a partiduclar component or third-party API.
+
+In a real-world application, Dynamic Segments are mostly used to render content dynamically when the segement `:itemId` matches the `id` of the returned APIs.
