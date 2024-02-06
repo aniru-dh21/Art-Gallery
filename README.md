@@ -9,3 +9,5 @@ This involves updating particular parts of the URL called segments, as well as r
 This is very common and useful in modern web apps. It enables client-side rendering, improves webiste navigation, and enables smooth transitions and animations (since the browser doesn't need to reload the page from external servers).
 
 This can overall improve website performance and enable a good user experience.
+
+## Client-Side Routing
