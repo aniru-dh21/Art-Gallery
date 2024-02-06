@@ -23,3 +23,7 @@ A Dynamic Segment, as the name suggests, is a way of rendering a new component (
 This is very useful in situations where content needs to render dynamically from a partiduclar component or third-party API.
 
 In a real-world application, Dynamic Segments are mostly used to render content dynamically when the segement `:itemId` matches the `id` of the returned APIs.
+
+## Nested Routing
+
+Nested routing makes it possible to nest routes to render new components on the same page for easy navigation and quick interactivity of the element. Nested routes make listed items function as a tab. As soon as any tab is clicked, the content that matches the corresponding tab gets displayed.
