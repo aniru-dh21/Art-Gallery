@@ -15,3 +15,5 @@ This can overall improve website performance and enable a good user experience.
 In React Router, navigation is relative between the `path` attribute and the `to` property. When a user clicks using the `<Link>` component (`<a>` tag), it navigates to the specified `path` within the route componet and renders the component when it matches.
 
 This type of navigation is called client-side routing because we are not rendering the pages from the server, but rather navigating from one components to another within the app.
+
+## Dyanmic Segments
